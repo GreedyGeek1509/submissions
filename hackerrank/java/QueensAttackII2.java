@@ -14,7 +14,7 @@ public class QueensAttackII2 {
         List<List<Boolean>> obstacles = new ArrayList<>();
 
         IntStream.range(0, n+1).forEach(i -> {
-            obstacles.add(Collections.nCopies(n+1, false));
+            obstacles.add(new ArrayList<>(Collections.nCopies(n+1, false)));
         });
 
         for(int a0 = 0; a0 < k; a0++){
