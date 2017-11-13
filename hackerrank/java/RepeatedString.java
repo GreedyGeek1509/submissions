@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * https://www.hackerrank.com/challenges/repeated-string/problem
+ */
+
 public class RepeatedString {
     public static void main (String args[]) {
         Scanner in = new Scanner(System.in);

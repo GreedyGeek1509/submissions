@@ -1,6 +1,10 @@
 import java.util.*;
 import java.util.stream.IntStream;
 
+/**
+ * https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem
+ */
+
 public class OrganizingContainersOfBalls {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);

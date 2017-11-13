@@ -1,6 +1,10 @@
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
+/**
+ * https://www.hackerrank.com/challenges/absolute-permutation/problem
+ */
+
 public class AbsolutePermutation {
 
     private static void printPermIter(int n, int K) {

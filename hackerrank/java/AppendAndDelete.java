@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * https://www.hackerrank.com/challenges/append-and-delete/problem
+ */
+
 public class AppendAndDelete {
     private static int numberOfOps (String s1, String s2) {
         int i;

@@ -4,6 +4,10 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
+/**
+ * https://www.hackerrank.com/challenges/queens-attack-2/problem
+ */
+
 public class QueensAttackII2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);

@@ -3,6 +3,10 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
+/**
+ * https://www.hackerrank.com/challenges/the-grid-search/problem
+ */
+
 public class TheGridSearch {
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);

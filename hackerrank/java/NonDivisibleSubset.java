@@ -4,6 +4,10 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
+/**
+ * https://www.hackerrank.com/challenges/non-divisible-subset/problem
+ */
+
 public class NonDivisibleSubset {
     public static void main(String[] args) {
         int n,k;

@@ -1,6 +1,10 @@
 import java.util.Scanner;
 import java.util.function.Function;
 
+/**
+* https://www.hackerrank.com/challenges/queens-attack-2/problem
+*/
+
 public class QueensAttackII {
 
     enum Direction {
