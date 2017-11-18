@@ -17,9 +17,6 @@ public class AbsolutePermutation {
         if (K == 0) {
             IntStream.range(1, N+1).forEach(i -> System.out.print(i+" "));
             return;
-        } else if (N%2 == 1 || K > N/2) {
-            System.out.print("-1");
-            return;
         } else if (N%(2*K) == 0) {
             IntStream.range(0, N/(2*K)).forEach(n -> printPermIter(n, K));
             return;
