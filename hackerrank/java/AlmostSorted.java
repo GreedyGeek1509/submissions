@@ -29,9 +29,7 @@ public class AlmostSorted {
             System.out.println(YES);
             return;
         }
-
         int r = descSort(list, l-1, len-1);
-
         if (r == len || (list.get(r) > list.get(l-1) && (l < 2 || list.get(r-1) > list.get(l-2)) && ascSort(list, r, len-1) == len)) {
             System.out.println(YES);
             if (r == l+1) {
@@ -41,7 +39,6 @@ public class AlmostSorted {
             }
             return;
         }
-
         r = ascSort(list, l, len-1);
         if (r < len) {
             int tmp = list.get(l-1);
